@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #b03c0e, #111);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: linear-gradient(to top, #b03c0e, #111);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Form Box */
+.form-box {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ff8d58;
+}
+
+/* Input Box */
+.input-box {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fffdfd;
+  font-weight: bold;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #85542c;
+  border: 0.9px solid rgb(0, 0, 0);
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Links */
+.forgot-link,
+.switch-link a {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.forgot-link:hover,
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+/* Switch Link */
+.switch-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #b2adad;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo" id="logo-container"></div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#recipe">Recipe</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="auth-buttons">
+        <a href="loginpage.html"><button class="login">Login</button></a>
+        <a href="signup.html"><button class="register">Sign Up</button></a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="hero">
+        <div class="content">
+          <h1>Discover Restaurants that Deliver Near You</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+          <br />
+          <button class="order-now">Order Now</button>
+        </div>
+        <div class="burger" id="home-image"></div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="intro">
+          <div class="icon" id="knife-icon-container"></div>
+          <p>
+            Welcome to our Food Store, where passion meets flavor. Our mission
+            is to bring you the finest, freshest ingredients and create dishes
+            that satisfy every craving. With a commitment to quality,
+            innovation, and customer satisfaction, we offer a culinary
+            experience that makes every meal memorable.
+          </p>
+        </div>
+        <div class="content">
+          <div class="text-box">
+            <h2>Best Food</h2>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old.
+            </p>
+            <br />
+            <br />
+            <a href="#">Read More &rarr;</a>
+          </div>
+
+          <div class="design" id="about-image-container">
+            <div class="yellow-square"></div>
+            <div class="image-box" id="image-box"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recipe Section -->
+      <section id="recipe" class="recipes">
+        <h2>Our Recipes</h2>
+        <br /><br /><br />
+        <div class="recipe-list" id="recipe-list"></div>
+      </section>
+
+      <!-- Blog Section -->
+      <section id="blog" class="fds-start">
+        <h1>Blog</h1>
+        <div class="icon" id="extradata"></div>
+        <div class="food-section" id="blog-list"></div>
+      </section>
+
+      <hr class="divider" />
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact_section">
+        <h1>
+          Request A <span style="color: rgb(255, 111, 0)">Call Back</span>
+        </h1>
+        <br /><br /><br />
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write your message"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

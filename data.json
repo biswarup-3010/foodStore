@@ -1,0 +1,39 @@
+{
+  "headerData": [{ "id": 1, "link": "photos/food-logo.png" }],
+  "bodyData": [{ "id": 2, "link": "photos/burger-img.png" }],
+  "aboutPage": [
+    { "id": 3, "link": "photos/knife-icon.png" },
+    { "id": 4, "link": "photos/food-img(2ndpage).jpg" }
+  ],
+  "recipePage": [
+    { "id": 5, "link": "photos/Homemade-Thali.jpg", "heading": "Home Made" },
+    { "id": 6, "link": "photos/Noodles-plate.jpg", "heading": "Noodles-Plate" },
+    { "id": 7, "link": "photos/EggPoch.jpg", "heading": "Egg Poch" },
+    {
+      "id": 8,
+      "link": "photos/sushi-removebg-preview.png",
+      "heading": "Sushi"
+    },
+    { "id": 9, "link": "photos/Snacks.jpg", "heading": "Snacks" }
+  ],
+  "blogPage": [
+    {
+      "id": 10,
+      "link": "photos/burgerblog1.jpg",
+      "heading": "Spicy Burger",
+      "desc": "The Spicy Burger is a flavor explosion, combining a perfectly grilled beef patty with a zesty kick. Topped with jalapeños, spicy mayo, and a hint of hot sauce, it’s the ultimate choice for heat lovers. The balance of heat and savory goodness makes every bite a fiery, satisfying experience."
+    },
+    {
+      "id": 11,
+      "link": "photos/eggtosh.jpg",
+      "heading": "Egg & Tosh",
+      "desc": "Egg and Tosh is a delightful breakfast classic, combining the simplicity of scrambled eggs with the crunch of toasted bread. This comforting dish is perfect for a quick meal, offering a balance of rich egg flavors and crispy toast. It’s a warm, satisfying choice to start your day."
+    },
+    {
+      "id": 12,
+      "link": "photos/pizza.jpg",
+      "heading": "Pizza",
+      "desc": "Pizza is the ultimate comfort food, with its crispy crust, rich tomato sauce, and melted cheese. Topped with a variety of ingredients like pepperoni, vegetables, or mushrooms, it offers endless possibilities for flavor combinations. Whether shared with friends or enjoyed solo, pizza is always a crowd-pleaser and a timeless favorite."
+    }
+  ]
+}

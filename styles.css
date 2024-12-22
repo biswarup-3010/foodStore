@@ -1,0 +1,387 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+/* Header Styles */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #111;
+  color: white;
+  z-index: 10;
+}
+.test {
+  position: absolute;
+  top: 35px;
+  left: 90px;
+}
+.Food-logo {
+  height: 50px;
+}
+
+.Food-logo img {
+  width: 8px;
+  height: 7px;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.auth-buttons button {
+  background-color: yellow;
+  border: none;
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.auth-buttons button:hover {
+  background-color: rgb(255, 196, 0);
+  border: none;
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  scale: 1.08;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.hero .content {
+  max-width: 35%;
+}
+
+.hero .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero .content p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.hero .content .order-now {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.hero .burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.hero .burger img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  opacity: 0.8;
+}
+
+/* About Section */
+.about {
+  background: linear-gradient(to bottom, #b03c0e, #111);
+}
+
+.about .intro {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about .intro p {
+  margin-top: 10px;
+}
+
+.about .intro .icon img {
+  width: 180px;
+  height: 180px;
+}
+
+.about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.about .text-box {
+  max-width: 30%;
+  background: linear-gradient(to top, #b03c0e, #111);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.about .text-box h2 {
+  margin-bottom: 10px;
+}
+
+.about .text-box a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.about .design {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  height: 300px;
+}
+
+.about .yellow-square {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b45309;
+  z-index: 1;
+  top: -5px;
+  left: -5px;
+}
+
+.about .image-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.about .image-box .image {
+  width: 100%;
+  height: 100%;
+  opacity: 70;
+}
+
+#about {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Recipe Section */
+
+.recipes {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #b03c0e, #111);
+}
+
+.recipes h2 {
+  padding: 30px;
+  font-size: 2rem;
+  margin: 0;
+  border-bottom: 2px solid #ff4a03;
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  white-space: nowrap;
+}
+
+.recipe {
+  background-color: #f99a5adb;
+  text-align: center;
+  border: 0.9px solid #c23700;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  flex-shrink: 0;
+  border-top-left-radius: 35px;
+  cursor: pointer;
+}
+
+.recipe img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  border: 12px solid white;
+}
+
+/* Blog Section Styles */
+#blog {
+  height: 100vh;
+  width: 100vw;
+  padding: 50px 20px;
+  background: linear-gradient(to bottom, #b03c0e, #111);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#blog h1 {
+  padding: 5px;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: rgb(250, 250, 248);
+  border-bottom: 2px solid #ff4a03;
+  margin-bottom: 10px;
+}
+
+.food-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.food-card {
+  position: relative;
+
+  background-color: rgba(187, 72, 10, 0.829);
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.food-card .date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: black;
+  color: yellow;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+.food-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 3px solid yellow;
+}
+
+.food-card h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+.food-card p {
+  font-size: 1rem;
+  color: #faf3f3;
+  padding: 0 15px 15px;
+}
+/* _____________contactus page________________ */
+.contact_section {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./photos/firyBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #3b2610;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #555;
+}
+.divider {
+  border: 0;
+  height: 0.9px;
+  background-color: #f80000;
+}
+.book-style {
+  text-align: justify; /* Justifies the text for a book-like appearance */
+  font-family: "Georgia", serif; /* Sets a serif font for a more traditional book look */
+  line-height: 1.2; /* Increases line spacing for better readability */
+  margin: 15px 0; /* Adds space above and below the paragraph */
+  padding: 0 1px; /* Adds padding on the left and right sides */
+  font-size: 0.8em; /* Slightly larger font size for better readability */
+  color: #333; /* A darker color for text for good contrast */
+}
